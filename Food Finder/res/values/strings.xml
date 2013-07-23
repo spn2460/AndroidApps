@@ -1,0 +1,41 @@
+<resources>
+    
+    <string name="welcome_tv">"Welcome to Food Finder"</string>
+    <string name="home_srch_lable">"Search"</string>
+    <string name="home_add_label">"Add"</string>
+    <string name="home_edit_label">"Edit"</string>
+    <string name="home_help_label">"Help"</string>
+    <string name="home_update_button">"Update"</string>
+    <string name="app_name">Food Finder</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_home_screen">Welcome to Food Finder</string>
+    <string name="instructions">Fill in the fields to store to your database</string>
+    <string name="edit_instructions">Make changes to this entry</string>
+    <string name="place_tv">"Place: "</string>
+    <string name="place_hint">restaurant, bar, etc</string>
+    <string name="type_tv">"Type: "</string>
+    <string name="type_hint">mexican, sushi, etc</string>
+    <string name="item_tv">"Item: "</string>
+    <string name="meal_hint">The meal you are having</string>
+    <string name="cost_tv">"Cost: "</string>
+    <string name="cost_hint">The cost of the meal</string>
+    <string name="rating_tv">"Rating: "</string>
+    <string name="comment_tv">"Comment: "</string>
+    <string name="comment_hint">Add additional comments here</string>
+    <string name="add_button_text">Add To DataBase</string>
+    <string name="help_add">Add:</string>
+    <string name="help_search">Search:</string>
+    <string name="help_select">On Item Select:</string>
+    <string name="help_web">Search the Web:</string>
+    <string name="help_edit">Edit:</string>
+    <string name="help_delete">Delete:</string>
+    <string name="help_add_tv">Store food in the database. Place, meal, and cost are required fields.  You can add rating, type, and comments later as you please. The Place field can not be edited.  Make sure you have entered the information correctly before pressing add to database. For simplicity, punctuation is removed before being stored in the database.</string>
+    <string name="help_search_tv">You may search for specific items, search for items that cost less than a dollar amount, search by type, or search by place.  
+        If you do not enter any parameters, the search will return your entire database. The search will always be ranked in order of your ratings</string>
+    <string name="help_select_tv">Simply select an item by touching that item and a dialogue box will appear.  You will have the choice to search the web, edit, delete or cancel.</string> 
+        
+    <string name="help_edit_tv">Once you select edit, a new screen will appear with all the current information about that item already populated in the appropriate fields.  Add to empty fields or change existing fields as you need. However, the name of the Place is not editable. Excercise caution when entering the name of the restaurant.</string>
+    <string name="help_delete_tv">Permanently remove an item from your database. As a precaution, a new dialogue box will appear asking if you are sure.  Select yes to delete, or no to cancel.</string>
+    <string name="help_select_web">Find a map or phone number from the web (be sure you are connected to the internet and have gps location enabled).</string>
+</resources>

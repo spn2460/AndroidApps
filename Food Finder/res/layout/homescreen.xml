@@ -1,0 +1,96 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tablecloth3"
+        android:minHeight="400dp" >
+
+        <TextView
+            android:id="@+id/welcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="@string/welcome_tv"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="14pt"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/search_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/welcome"
+            android:layout_below="@+id/welcome"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/ic_launcher"
+            android:minHeight="110dip"
+            android:minWidth="110dip" />
+
+        <Button
+            android:id="@+id/enter_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/welcome"
+            android:layout_below="@+id/search_button"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/ic_launcher"
+            android:minHeight="110dip"
+            android:minWidth="110dip" />
+
+        <Button
+            android:id="@+id/help_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/welcome"
+            android:layout_below="@+id/enter_button"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/ic_launcher"
+            android:minHeight="100dip"
+            android:minWidth="100dip" />
+
+        <TextView
+            android:id="@+id/search_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/search_button"
+            android:layout_alignRight="@+id/welcome"
+            android:layout_marginBottom="20dp"
+            android:background="@color/white"
+            android:clickable="true"
+            android:text="@string/home_srch_lable"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="26pt" />
+
+        <TextView
+            android:id="@+id/help_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/help_button"
+            android:layout_alignRight="@+id/search_label"
+            android:background="@color/white"
+            android:clickable="true"
+            android:text="@string/home_help_label"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="22pt" />
+
+        <TextView
+            android:id="@+id/enter_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/enter_button"
+            android:layout_alignRight="@+id/help_label"
+            android:background="@color/white"
+            android:clickable="true"
+            android:text="@string/home_add_label"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="26pt" />
+    </RelativeLayout>
+
+</ScrollView>
